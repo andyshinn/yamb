@@ -588,4 +588,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/MCSBC.step"
+		(offset
+			(xyz -52.03 -6.35 -17.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
 )

@@ -518,15 +518,15 @@
 		(uuid "130ddd51-840a-4cc1-ae44-ceb2175029bd")
 	)
 	(embedded_fonts no)
-	(model "/Users/andy/3D/Voltaic Adapter/Parts - PCB - SVR.step"
+	(model "${KIPRJMOD}/components/SVR.step"
 		(offset
-			(xyz 0 0 2.5)
+			(xyz 51.8 -55.6 -17.3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 90)
+			(xyz -0 -0 -0)
 		)
 	)
 )
