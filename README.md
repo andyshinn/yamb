@@ -20,9 +20,9 @@ YAMB (Yet Another Meshtasic Board) is a meshtastic board centered around outdoor
 * Onboard QWIIC / STEMMA QT connector for easy I2C expansion.
 * BME280 temperature, humidity, and pressure sensor.
 
-## Board
+## Schematic
 
-![YAMB Board](https://raw.githubusercontent.com/andyshinn/yamb/master/exports/yamb-pcb.stl)
+![YAMB Board](https://raw.githubusercontent.com/andyshinn/yamb/master/exports/yamb.svg)
 
 ## Notes
 
