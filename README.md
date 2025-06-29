@@ -7,7 +7,7 @@ YAMB (Yet Another Meshtasic Board) is a meshtastic board centered around outdoor
 * Is open source and open hardware so anyone can make it, modify it, and use it.
 * Get the board into hands of people near me that want to use it to help expand our local mesh network.
 
-![YAMB PCB](https://raw.githubusercontent.com/andyshinn/yamb/main/exports/yamb-pcb.png)
+![YAMB PCB](https://raw.githubusercontent.com/andyshinn/yamb/master/exports/yamb-pcb.png)
 
 ## Features
 
@@ -22,7 +22,7 @@ YAMB (Yet Another Meshtasic Board) is a meshtastic board centered around outdoor
 
 ## Board
 
-![YAMB Board](https://raw.githubusercontent.com/andyshinn/yamb/main/exports/yamb-pcb.stl)
+![YAMB Board](https://raw.githubusercontent.com/andyshinn/yamb/master/exports/yamb-pcb.stl)
 
 ## Notes
 
