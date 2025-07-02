@@ -33,6 +33,6 @@ To export images from KiCad, you can use the following command in the terminal:
 ```bash
 export KICAD9_3DMODEL_DIR=/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels
 kicad-cli pcb export stl yamb.kicad_pcb --output exports/yamb-pcb.stl
-kicad-cli pcb render --output=exports/yamb-pcb.png --rotate="320,0,45" --perspective --pan "0,2,0" --quality high yamb.kicad_pcb
-kicad-cli sch export svg yamb.kicad_scb --output exports/yamb-schematic.svg
+kicad-cli pcb render --output=exports/yamb-pcb.png --rotate="310,0,45" --perspective --pan "0,2.2,0" --quality high --zoom 1.3 yamb.kicad_pcb
+kicad-cli sch export svg yamb.kicad_sch -n --output exports
 ```
