@@ -1,0 +1,351 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "UJ20-C-V-C-3-SMT-TR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -7.62 23.622 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "UJ20-C-V-C-3-SMT-TR" (id 1) (at -7.62 -99.06 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "UJ20-C-V-C-3-SMT-TR:CUI_UJ20-C-V-C-3-SMT-TR" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.0" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "10.5mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CUI Devices" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "UJ20-C-V-C-3-SMT-TR_0_0"
+      (rectangle (start -7.62 -96.52) (end 7.62 22.86)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 12.7 20.32 180.0) (length 5.08)
+        (name "VBUS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A4_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -76.2 180.0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -2.54 180.0) (length 5.08)
+        (name "DN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A7_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -7.62 180.0) (length 5.08)
+        (name "DP1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A6_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -15.24 180.0) (length 5.08)
+        (name "DN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B7_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -20.32 180.0) (length 5.08)
+        (name "DP2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B6_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -53.34 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -27.94 180.0) (length 5.08)
+        (name "CC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A5_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -33.02 180.0) (length 5.08)
+        (name "SBU1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A8_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -40.64 180.0) (length 5.08)
+        (name "CC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B5_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -45.72 180.0) (length 5.08)
+        (name "SBU2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B8_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 17.78 180.0) (length 5.08)
+        (name "VBUS__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A4_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 15.24 180.0) (length 5.08)
+        (name "VBUS__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A9_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 12.7 180.0) (length 5.08)
+        (name "VBUS__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A9_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 10.16 180.0) (length 5.08)
+        (name "VBUS__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B4_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 7.62 180.0) (length 5.08)
+        (name "VBUS__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B4_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 5.08 180.0) (length 5.08)
+        (name "VBUS__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B9_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 2.54 180.0) (length 5.08)
+        (name "VBUS__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B9_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -5.08 180.0) (length 5.08)
+        (name "DN1__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A7_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -10.16 180.0) (length 5.08)
+        (name "DP1__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A6_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -17.78 180.0) (length 5.08)
+        (name "DN2__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B7_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -22.86 180.0) (length 5.08)
+        (name "DP2__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B6_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -30.48 180.0) (length 5.08)
+        (name "CC1__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A5_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -35.56 180.0) (length 5.08)
+        (name "SBU1__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A8_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -43.18 180.0) (length 5.08)
+        (name "CC2__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B5_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -48.26 180.0) (length 5.08)
+        (name "SBU2__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B8_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -55.88 180.0) (length 5.08)
+        (name "GND__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -58.42 180.0) (length 5.08)
+        (name "GND__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A12_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -60.96 180.0) (length 5.08)
+        (name "GND__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A12_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -63.5 180.0) (length 5.08)
+        (name "GND__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -66.04 180.0) (length 5.08)
+        (name "GND__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -68.58 180.0) (length 5.08)
+        (name "GND__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B12_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -71.12 180.0) (length 5.08)
+        (name "GND__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B12_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -78.74 180.0) (length 5.08)
+        (name "SHIELD__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -81.28 180.0) (length 5.08)
+        (name "SHIELD__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -83.82 180.0) (length 5.08)
+        (name "SHIELD__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -86.36 180.0) (length 5.08)
+        (name "SHIELD__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH3_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -88.9 180.0) (length 5.08)
+        (name "SHIELD__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH3_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -91.44 180.0) (length 5.08)
+        (name "SHIELD__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH4_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 -93.98 180.0) (length 5.08)
+        (name "SHIELD__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH4_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
